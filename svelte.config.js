@@ -7,8 +7,5 @@ export default {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({ pages: 'build', assets: 'build', fallback: null }),
-    paths: {
-      base: dev ? '' : ''
-    }
   }
 };
