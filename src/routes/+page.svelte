@@ -16,7 +16,7 @@
         <div class="role">Postdoctoral researcher</div>
         <div class="role2">in Demography</div>
         <div class="role2"></div>
-        <div class="role2">🏵</div>
+        <div class="role2">🏵&#xFE0E;</div>
     </div>
 
     <nav class="menu">
