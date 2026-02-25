@@ -12,11 +12,9 @@
     </header>
 
     <div class="card__details">
-        <div class="name">❧ Bilal Kostet <span class="mirror">❧</span></div>
+        <div class="name">Bilal Kostet</div>
         <div class="role">Postdoctoral researcher</div>
         <div class="role2">in Demography</div>
-        <div class="role2"></div>
-        <div class="role2">❀</div>
     </div>
 
     <nav class="menu">
@@ -93,13 +91,13 @@
 
   .email {
     text-align: left;
-    font-size: clamp(0.55rem, 3.4cqi, 1.6rem);
+    font-size: clamp(0.5rem, 3.3cqi, 1.6rem);
   }
 
   .employer {
     text-align: right;
     font-family: "University Old Style", serif;
-    font-size: clamp(0.7rem, 3.7cqi, 1.7rem);
+    font-size: clamp(0.8rem, 4.5cqi, 1.8rem);
   }
   .role {
     margin-top: 0.2rem;
@@ -147,9 +145,4 @@
     outline-offset: 3px;
     border-radius: 4px;
   }
-
-  .mirror {
-  display: inline-block;
-  transform: scaleX(-1);
-}
 </style>

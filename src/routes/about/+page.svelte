@@ -7,7 +7,7 @@
   <section class="card">
 
 <div class="card__details">
-      <h1 class="title">About ❀</h1>
+      <h1 class="title">About <span class="mirror">❧</span></h1>
 
       <div class="about">
         <p>
@@ -17,7 +17,7 @@
         <p>
         Beyond prediction, they provide a framework to interpret data, identify key drivers, and assess the potential impact of interventions in order to inform decision-makers.
         </p> 
-
+        <div class="seal">❀</div> 
       </div>
     </div>
 
@@ -73,6 +73,12 @@
     margin: 0;
   }
 
+  .seal {
+    margin-top:0.5em;
+    text-align: center;
+    font-size: clamp(0.5rem, 3.8cqi, 2rem);
+  }
+
   .about p + p {
     margin-top: 0.9em;
   }
@@ -104,4 +110,9 @@
     outline-offset: 3px;
     border-radius: 4px;
   }
+  .mirror {
+  display: inline-block;
+  transform: rotate(90deg);
+  font-size: clamp(1.2rem, 3.3cqi, 1.6rem);
+}
 </style>
