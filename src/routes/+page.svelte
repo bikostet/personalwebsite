@@ -23,9 +23,11 @@
       <a class="menu__item" href="/cv_Kostet.pdf" target="_blank">CV</a>
       <a class="menu__item" href="https://scholar.google.com/citations?user=pGbCGogAAAAJ">Publications</a>
       <a class="menu__item" href="https://github.com/bikostet">GitHub</a>
+      <a class="menu__item" href="https://www.linkedin.com/in/bilal-kostet-8b88691b6/">LinkedIn</a>
     </nav>
   </section>
 </div>
+
 
 <style>
   .stage {
@@ -123,12 +125,12 @@
     width: 100%;
     align-items: baseline;
     justify-content: center;
-    gap: clamp(0.8rem, 5cqi, 4rem);
+    gap: clamp(0.2rem, 2.1cqi, 4rem);
     padding-top: clamp(0.4rem, 1.6cqi, 0.8rem);
     font-size: clamp(0.5rem, 3.8cqi, 2rem);
     flex-wrap: wrap;
   }
-
+  
   .menu__item {
     color: var(--ink);
     text-decoration: none;
